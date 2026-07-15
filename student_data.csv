@@ -1,0 +1,6 @@
+Student_ID,Name,Age,Gender,Branch,Semester,Attendance,Internal_Marks,Assignment_Marks,Study_Hours,Previous_Sem_Percentage,Activities,Final_Percentage
+1,Rahul,20,Male,CSE,6,90,42,18,4,82,Yes,85
+2,Priya,21,Female,IT,6,85,40,17,3,78,Yes,80
+3,Amit,20,Male,ECE,5,70,30,12,2,65,No,62
+4,Sneha,21,Female,CSE,7,95,45,20,5,88,Yes,91
+5,Rohan,22,Male,ME,8,60,25,10,1,58,No,55
