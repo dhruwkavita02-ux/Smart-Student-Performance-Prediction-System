@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <h1>Smart Student Performance Prediction System</h1>
+
+    <div class="card-container">
+
+        <a href="/predict" class="card">
+            <h2>Student Data Entry</h2>
+            <p>Enter student details for prediction.</p>
+        </a>
+
+        <a href="/records" class="card">
+            <h2>Student Records</h2>
+            <p>View all saved student records.</p>
+        </a>
+
+        <a href="/predict" class="card">
+            <h2>Performance Prediction</h2>
+            <p>Predict student performance using ML.</p>
+        </a>
+
+        <a href="/report" class="card">
+            <h2>Reports</h2>
+            <p>View prediction reports.</p>
+        </a>
+
+        <a href="/" class="card logout">
+            <h2>Logout</h2>
+            <p>Return to Home Page.</p>
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
